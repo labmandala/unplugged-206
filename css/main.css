@@ -254,7 +254,11 @@ footer .copyright {
   margin: 20px 0;
 }
 
-/* ---------- Mobile Styles - Homepage ---------- */
+/* ---------- Mobile Styles ---------- */
+
+/* ==========================================================================
+   Home Page
+   ========================================================================== */
 
   /* --- Hero Area --- */
 
@@ -368,6 +372,22 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.map figure {
+  width: 100%;
+  height: 0; 
+  padding-bottom: 80%; 
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
   
 .contact-section {
